@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>momentum de física</title>
-  <meta name="description" content="Conteúdo de Física e Matemática para o ENEM e vestibulares.">
+  <title>momento de física</title>
+  <meta name="description" content="Aulas de Física e Matemática, listas do ENEM e conteúdo no YouTube.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -12,17 +12,20 @@
 </head>
 <body>
 
+  <!-- ============================================================
+       TOPBAR: aparece em todas as abas
+       ============================================================ -->
   <header class="topbar">
     <div class="container topbar-inner">
-      <a href="#inicio" class="logo">momentum de física</a>
+      <a href="#inicio" class="logo">momento de física</a>
       <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <nav class="nav">
         <a href="#inicio">Início</a>
-        <a href="#fisica">Física</a>
-        <a href="#matematica">Matemática</a>
-        <a href="#gerador">Gerador de Listas</a>
+        <a href="#estude">Estude Comigo</a>
+        <a href="#youtube">YouTube</a>
+        <a href="#listas">Listas ENEM</a>
         <a href="#contato">Contato</a>
       </nav>
     </div>
@@ -30,148 +33,159 @@
 
   <main>
 
-    <!-- ===================== INÍCIO ===================== -->
+    <!-- ============================================================
+         ABA 1: INÍCIO
+         ============================================================ -->
     <section id="inicio" class="aba">
       <div class="container hero">
         <h1>Bem-vindo ao <span class="destaque">momento de física</span></h1>
         <p class="lead">
-          Professor Breno, graduado e mestre em Física Teórica pela UFMG. 
+          Aulas de Física e Matemática, listas de exercícios do ENEM
+          e conteúdo gratuito no YouTube.
         </p>
         <div class="cards-atalho">
-          <a href="#fisica" class="card-atalho">
-            <span class="icone">⚛️</span>
-            <h3>Física</h3>
-            <p>Mecânica, termologia, eletromagnetismo, óptica e mais.</p>
+          <a href="#estude" class="card-atalho">
+            <span class="icone">📚</span>
+            <h3>Estude Comigo</h3>
+            <p>Aulas particulares e acompanhamento personalizado.</p>
           </a>
-          <a href="#matematica" class="card-atalho">
-            <span class="icone">📐</span>
-            <h3>Matemática</h3>
-            <p>Funções, geometria, estatística, probabilidade e mais.</p>
+          <a href="#youtube" class="card-atalho">
+            <span class="icone">▶️</span>
+            <h3>YouTube</h3>
+            <p>Videoaulas gratuitas de Física e Matemática.</p>
           </a>
-          <a href="#gerador" class="card-atalho">
+          <a href="#listas" class="card-atalho">
             <span class="icone">📝</span>
-            <h3>Gerador de Listas</h3>
+            <h3>Listas ENEM</h3>
             <p>Monte listas de exercícios personalizadas em PDF.</p>
           </a>
         </div>
       </div>
     </section>
 
-    <!-- ===================== FÍSICA ===================== -->
-    <section id="fisica" class="aba">
+    <!-- ============================================================
+         ABA 2: ESTUDE COMIGO
+         ============================================================ -->
+    <section id="estude" class="aba">
       <div class="container">
         <header class="secao-header">
-          <h1>Física</h1>
-          <p class="lead">Crie sua lista de exercícios de física do ENEM.</p>
-        </header>
-
-        <div class="cards-tema">
-          <a class="card-tema" href="#">
-            <h3>Mecânica</h3>
-            <p>Cinemática, dinâmica, estática, hidrostática.</p>
-          </a>
-          <a class="card-tema" href="#">
-            <h3>Termologia</h3>
-            <p>Calorimetria, termodinâmica, dilatação.</p>
-          </a>
-          <a class="card-tema" href="#">
-            <h3>Ondulatória</h3>
-            <p>Ondas, som, efeito Doppler, espectro eletromagnético.</p>
-          </a>
-          <a class="card-tema" href="#">
-            <h3>Óptica</h3>
-            <p>Espelhos, refração, visão, natureza da luz.</p>
-          </a>
-          <a class="card-tema" href="#">
-            <h3>Eletromagnetismo</h3>
-            <p>Circuitos, campo elétrico, magnetismo, indução.</p>
-          </a>
-          <a class="card-tema" href="#">
-            <h3>Física Moderna</h3>
-            <p>Radioatividade, modelos atômicos, energia nuclear.</p>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== MATEMÁTICA ===================== -->
-    <section id="matematica" class="aba">
-      <div class="container">
-        <header class="secao-header">
-          <h1>Matemática</h1>
-          <p class="lead">Crie sua lista de exercícios de Matemática do ENEM.</p>
-        </header>
-
-        <div class="cards-tema">
-          <a class="card-tema" href="#">
-            <h3>Aritmética</h3>
-            <p>Operações, porcentagem, razão e proporção, unidades.</p>
-          </a>
-          <a class="card-tema" href="#">
-            <h3>Álgebra</h3>
-            <p>Expressões algébricas, equações, sistemas, matrizes.</p>
-          </a>
-          <a class="card-tema" href="#">
-            <h3>Funções</h3>
-            <p>1º e 2º grau, exponencial, logarítmica, trigonométrica.</p>
-          </a>
-          <a class="card-tema" href="#">
-            <h3>Geometria Plana</h3>
-            <p>Áreas, triângulos, circunferência, trigonometria.</p>
-          </a>
-          <a class="card-tema" href="#">
-            <h3>Geometria Espacial</h3>
-            <p>Volume, prismas, cilindros, projeções.</p>
-          </a>
-          <a class="card-tema" href="#">
-            <h3>Estatística</h3>
-            <p>Médias, mediana, análise de gráficos.</p>
-          </a>
-          <a class="card-tema" href="#">
-            <h3>Probabilidade</h3>
-            <p>Probabilidade condicional, binomial, contagem.</p>
-          </a>
-          <a class="card-tema" href="#">
-            <h3>Geometria Analítica</h3>
-            <p>Coordenadas, retas, circunferências.</p>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== GERADOR ===================== -->
-    <section id="gerador" class="aba">
-      <div class="container">
-        <header class="secao-header">
-          <h1>Gerador de Listas</h1>
+          <h1>Estude Comigo</h1>
           <p class="lead">
-            O gerador está em construção. Em breve você poderá montar listas
-            personalizadas aqui mesmo.
+            Aulas particulares de Física e Matemática, presenciais ou online.
+          </p>
+        </header>
+
+        <div class="cards-tema">
+          <div class="card-tema">
+            <h3>Aulas particulares</h3>
+            <p>Atendimento individual, ritmo personalizado, foco no que você precisa.</p>
+          </div>
+          <div class="card-tema">
+            <h3>Preparação para o ENEM</h3>
+            <p>Revisão de conteúdos, resolução de questões e estratégias de prova.</p>
+          </div>
+          <div class="card-tema">
+            <h3>Reforço escolar</h3>
+            <p>Acompanhamento contínuo para Ensino Médio e Fundamental.</p>
+          </div>
+        </div>
+
+        <div class="prosa" style="margin-top: 2.5rem;">
+          <p>
+            <em>[Espaço para você escrever sobre sua metodologia, sua experiência,
+            como funcionam as aulas, valores, etc.]</em>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABA 3: YOUTUBE
+         ============================================================ -->
+    <section id="youtube" class="aba">
+      <div class="container">
+        <header class="secao-header">
+          <h1>YouTube</h1>
+          <p class="lead">
+            Videoaulas gratuitas de Física e Matemática.
+          </p>
+        </header>
+
+        <div class="prosa">
+          <p>
+            <em>[Espaço para embed de vídeos, playlist, ou link direto para o canal.]</em>
+          </p>
+          <p>
+            <a class="botao" href="https://www.youtube.com/@momentodefisica" target="_blank" rel="noopener">
+              Ver canal no YouTube
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABA 4: LISTAS ENEM
+         ============================================================ -->
+    <section id="listas" class="aba">
+      <div class="container">
+        <header class="secao-header">
+          <h1>Listas ENEM</h1>
+          <p class="lead">
+            Monte listas de exercícios personalizadas por tema e baixe em PDF.
+          </p>
+        </header>
+
+        <div class="prosa">
+          <p>
+            <em>Em breve, o gerador completo estará disponível aqui mesmo.
+            Por enquanto, você pode usar a versão inicial:</em>
           </p>
           <p>
             <a class="botao" href="https://momentodefisica.github.io/geradorlistas/" target="_blank" rel="noopener">
-              Abrir versão atual
+              Abrir gerador de listas
             </a>
           </p>
-        </header>
+        </div>
       </div>
     </section>
 
-    <!-- ===================== SOBRE ===================== -->
+    <!-- ============================================================
+         ABA 5: CONTATO
+         ============================================================ -->
     <section id="contato" class="aba">
       <div class="container">
         <header class="secao-header">
           <h1>Contato</h1>
+          <p class="lead">
+            Vamos conversar sobre suas aulas ou dúvidas.
+          </p>
         </header>
+
         <div class="prosa">
           <p>
-           Você pode <strong>impulsionar</strong> seus estudos comigo! 
-           Entre em contato comigo pelo Whatsaap
-            
+            <em>[Espaço para colocar WhatsApp, e-mail, Instagram, etc.]</em>
           </p>
-          <p>
-            
-          </p>
+          <!--
+            Exemplos de como adicionar links depois:
+
+            <p>
+              <strong>WhatsApp:</strong>
+              <a href="https://wa.me/55SEUNUMERO" target="_blank" rel="noopener">
+                (XX) XXXXX-XXXX
+              </a>
+            </p>
+            <p>
+              <strong>E-mail:</strong>
+              <a href="mailto:seu@email.com">seu@email.com</a>
+            </p>
+            <p>
+              <strong>Instagram:</strong>
+              <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener">
+                @seuusuario
+              </a>
+            </p>
+          -->
         </div>
       </div>
     </section>

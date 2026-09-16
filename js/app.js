@@ -1,6 +1,5 @@
 // --- Roteamento de abas ---
-
-const ABAS_VALIDAS = ["inicio", "fisica", "matematica", "gerador", "sobre"];
+const ABAS_VALIDAS = ["inicio", "estude", "youtube", "listas", "contato"];
 
 function abaAtual() {
   const hash = location.hash.replace("#", "") || "inicio";
