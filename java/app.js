@@ -23,7 +23,7 @@ function mostrarAba() {
 }
 
 window.addEventListener("hashchange", mostrarAba);
-window.addEventListener("DOMContentLoaded", mostrarAba);
+mostrarAba()
 
 // --- Menu mobile ---
 
